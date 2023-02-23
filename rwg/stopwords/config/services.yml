@@ -1,0 +1,6 @@
+services:
+    rwg.stopwords.listener:
+        class: rwg\stopwords\event\main_listener
+        arguments:
+        tags:
+            - { name: event.listener }
